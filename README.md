@@ -1,2 +1,2 @@
 # bash_scripts
-Bash Scripts I use frequently
+Bash Scripts to set up my Linux workstation with needed apps
