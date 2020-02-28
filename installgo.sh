@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# Installs go toolchain and go version 1.14 to system
 wget -P $HOME https://dl.google.com/go/go1.4-bootstrap-20171003.tar.gz 
 tar xzvf $HOME/go1.4-bootstrap-20171003.tar.gz -C $HOME
 mv $HOME/go/ $HOME/go1.4/
