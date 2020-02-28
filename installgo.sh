@@ -10,3 +10,4 @@ git clone https://go.googlesource.com/go $HOME/goroot
 cd $HOME/goroot && git checkout go1.14
 cd $HOME/goroot/src/ && ./all.bash
 sed -i "$ a shopt -s extglob\nexport GOLOC=/home/$USER/goroot/bin\nexport PATH=$PATH:$GOLOC" ~/.bashrc
+rm $HOME/go1.4-bootstrap-20171003.tar.gz
